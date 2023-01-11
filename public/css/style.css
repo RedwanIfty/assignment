@@ -1,0 +1,136 @@
+.top-right-button {
+    /* Position the button */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    /* Style the button */
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add hover effect */
+.top-right-button:hover {
+    background-color: #3e8e41;
+}
+/* Select the form */
+form.login-form {
+/* Center the form on the page */
+margin: 0 auto;
+width: 300px;
+}
+
+/* Style the form inputs */
+form.login-form input[type="text"],
+form.login-form input[type="password"] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Style the submit button */
+form.login-form input[type="submit"] {
+width: 100%;
+background-color: #4CAF50; /* Green */
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+}
+
+/* Add hover effect for the submit button */
+form.login-form input[type="submit"]:hover {
+background-color: #45a049;
+}
+
+/* Style the error message */
+form.login-form .error {
+color: red;
+text-align: center;
+margin-top: 10px;
+}
+table {
+    width: 100%; /* Set the width of the table to 100% */
+    border-collapse: collapse; /* Remove the space between table cells */
+}
+
+th, td {
+    border: 1px solid black; /* Add a border to the table cells */
+    padding: 8px; /* Add some padding to the table cells */
+    text-align: left; /* Align the text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Add a light gray background color to the header cells */
+    font-weight: bold; /* Make the header text bold */
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    border: 2px solid gray;
+    width: 200px;
+    border-radius: 4px;
+}
+.update {
+    background-color: rgb(0, 255, 17);
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+  }
+  
+.delete {
+    background-color: red;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    display: block;
+  }
+  
+  input {
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 100%;
+  }
+  
+  .btn-primary{
+    background-color: blue;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+    margin-top: 1em;
+    width: 100%;
+  }
+  .search{
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
